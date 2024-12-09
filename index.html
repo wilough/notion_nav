@@ -59,16 +59,16 @@
 
 	<nav class="navMenu  border">
 		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
-		<a id="library catalogue" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-inbox"></i> Library Catalogue</a>
-		<a id="series tracker" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-week"></i> Series Tracker</a>
+		<a id="library-catalogue" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-inbox"></i> Library Catalogue</a>
+		<a id="series-tracker" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-week"></i> Series Tracker</a>
 		<a id="authors" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Authors</a>
 		<a id="favourites" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-list-check"></i> Favourites</a>
 		<a id="miscellaneous" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-money-bill-wave"></i> Miscellaneous</a>
-		<a id="cawpile guide" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-lightbulb"></i> Cawpile Guide</a>
-		<a id="reading profiles" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-layer-group"></i> Reading Profiles</a>
-		<a id="review profiles" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i> Review Profiles</a>
-		<a id="free monster romance" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-bookmark"></i> Free Monster Romance</a>
-		<a id="book cover template" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-wrench"></i> Book Cover Template</a>
+		<a id="cawpile-guide" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-lightbulb"></i> Cawpile Guide</a>
+		<a id="reading-profiles" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-layer-group"></i> Reading Profiles</a>
+		<a id="review-profiles" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i> Review Profiles</a>
+		<a id="free-monster-romance" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-bookmark"></i> Free Monster Romance</a>
+		<a id="book-cover-template" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-wrench"></i> Book Cover Template</a>
 
 
 
@@ -78,7 +78,7 @@
 	<script>
 
 		let direction = "vertical";
-		if (direction === "horizontal") {
+		if (direction === "vertical") {
 			document.head.insertAdjacentHTML("beforeend", `<style>.navMenu a {display: block; text-align:left; margin:7px} i{width:15px; margin-right:5px} .navMenu{margin:3px}</style>`)
 		}
 
@@ -89,7 +89,7 @@
 				window.open("https://example.com", '_blank').focus();
 			else if (id == "library catalogue")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "series tracker")
+			else if (id == "series-tracker")
 				window.open("https://example.com", '_blank').focus();
 			else if (id == "authors")
 				window.open("https://example.com", '_blank').focus();
@@ -97,15 +97,15 @@
 				window.open("https://example.com", '_blank').focus();
 			else if (id == "miscellaneous")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "cawpile guide")
+			else if (id == "cawpile-guide")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "reading profiles")
+			else if (id == "reading-profiles")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "review profiles")
+			else if (id == "review-profiles")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "free monter romance")
+			else if (id == "free-monter-romance")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "book cover template")
+			else if (id == "book-cover-template")
 				
 
 		}
